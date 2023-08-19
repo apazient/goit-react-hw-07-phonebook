@@ -14,9 +14,6 @@ export const contactsSlice = createSlice({
   name: 'contacts',
   initialState,
   reducers: {
-    setLoading: (state, { payload }) => {
-      state.isLoading = payload;
-    },
     setFilter: (state, action) => {
       state.filter = action.payload;
     },
